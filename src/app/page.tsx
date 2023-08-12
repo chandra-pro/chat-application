@@ -1,9 +1,14 @@
 import Image from "next/image";
+import MessageList from "./MessageList";
+import MessageInput from "./MessageInput";
 
 export default function Home() {
   return (
     <div>
-      <p>Person</p>
+      <main>
+        <MessageList />
+        <MessageInput />
+      </main>
     </div>
   );
 }
